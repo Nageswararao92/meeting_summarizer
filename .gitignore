@@ -1,0 +1,40 @@
+# Node
+node_modules/
+frontend/node_modules/
+**/dist/
+**/build/
+
+# Envs and secrets
+.env
+**/.env
+frontend/.env
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Database / data (do not commit runtime data)
+backend/data.db
+*.sqlite*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# Coverage & logs
+coverage/
+.coverage*
+*.log
+
+# Vite/Next caches
+.next/
+.cache/
